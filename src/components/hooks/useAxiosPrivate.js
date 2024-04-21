@@ -8,7 +8,7 @@ const useAxiosPrivate = () => {
   const refresh = useRefreshToken();
   const axiosPrivate = axios.create({
     // baseURL: "http://3.145.76.78:3001/api",
-    baseURL: "http://18.189.17.119:3001/api",
+    baseURL: "http://18.224.215.79:3001/api",
   });
 
   useEffect(() => {

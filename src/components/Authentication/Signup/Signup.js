@@ -35,7 +35,7 @@ function SignupPage() {
       setFormData({ ...formData, imageURL: "imageURL" });
       axios
         // .post("http://3.145.76.78:3001/auth/register", formData)
-        .post("http://18.189.17.119:3001/auth/register", formData)
+        .post("http://18.224.215.79:3001/auth/register", formData)
         .then((response) => {
           setLoader(false);
           navigate("/sign-in");
