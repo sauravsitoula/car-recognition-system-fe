@@ -1,0 +1,8 @@
+.search-dropzone {
+  cursor: pointer;
+  width: 380px;
+  height: 110px;
+  position: relative;
+  border: 1px dashed black;
+  border-radius: 10px;
+}
